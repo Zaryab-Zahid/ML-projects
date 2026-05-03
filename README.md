@@ -52,6 +52,17 @@ Handles imbalanced data and threshold tuning to improve churn detection.
 - Scikit-learn
 
 ---
+### 🫀 Heart Disease Prediction
+A complete ML pipeline that tests 5 models, compares accuracy, and tunes 
+the best model using GridSearchCV and Cross Validation.
+
+- **Dataset:** Heart Disease UCI (920 patients, 16 features)
+- **Models Tested:** Logistic Regression, Random Forest, SVM, KNN, XGBoost
+- **Best Model:** Random Forest — 82.60% after tuning
+- **Techniques:** GridSearchCV, Cross Validation, Label & One Hot Encoding
+- **Tech:** Python, Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib
+- 📂 [View Project](./Heart_Disease_Prediction)
+
 
 ## Learning Progress
 
@@ -65,7 +76,9 @@ Handles imbalanced data and threshold tuning to improve churn detection.
 | Random Forest Classifier | ✅ Done |
 | Model Evaluation | ✅ Done |
 | Cosine Similarity | ✅ Done |
-| Hyperparameter Tuning | 🔄 Coming Soon |
+| GridSearchCV | ✅ Done |
+| Cross Validation | ✅ Done |
+| Multiple Model Comparison | ✅ Done |
 | Deep Learning | 🔄 Coming Soon |
 | Model Deployment | 🔄 Coming Soon |
 
